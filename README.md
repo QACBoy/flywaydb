@@ -1,4 +1,4 @@
-# FlywayDB 引入到项目中的几种方式
+# 项目中接入 flyway 的几种方式
 
 ## 第一种方式
 使用 FlywayConfiguration + FlywayTest
@@ -23,3 +23,13 @@ flyway-6.0.7-mac 脚本存放位置
 ## 第五种方式
 自己开发 idea 插件进行封装操作
 
+
+<hr>
+
+写的不好的地方还请大伙多多包涵哈~
+要是能帮忙指出更是十分感谢了！
+要是有写得不清不楚的地方，也欢迎小伙伴们来交流呀~
+
+![](wechat.jpg)
+
+博客原文地址：https://blog.csdn.net/QAC_Boy/article/details/102692055
