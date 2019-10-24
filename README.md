@@ -30,6 +30,6 @@ flyway-6.0.7-mac 脚本存放位置
 要是能帮忙指出更是十分感谢了！
 要是有写得不清不楚的地方，也欢迎小伙伴们来交流呀~
 
-![](wechat.jpg)
+![](wechat.png)
 
 博客原文地址：https://blog.csdn.net/QAC_Boy/article/details/102692055
