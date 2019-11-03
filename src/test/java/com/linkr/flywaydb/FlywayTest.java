@@ -1,4 +1,4 @@
-package com.example.flywaydb;
+package com.linkr.flywaydb;
 
 import com.alibaba.fastjson.JSONObject;
 import org.flywaydb.core.Flyway;
