@@ -1,4 +1,5 @@
 # 项目中接入 flyway 的几种方式
+> flyway 5.x 版本
 
 ## 第一种方式
 使用 FlywayConfiguration + FlywayTest

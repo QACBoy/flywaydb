@@ -5,10 +5,10 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.9.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>1.5.9.RELEASE</version>
+		<relativePath/>
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.linkr</groupId>
 	<artifactId>flywaydb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flywaydb</name>
@@ -42,8 +42,7 @@
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
-			<version>6.0.7</version>
-			<!--<version>5.0.3</version>-->
+			<version>5.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,15 +58,15 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<!--直接使用 plugin 的配置-->
-			<plugin>
-				<groupId>org.flywaydb</groupId>
-				<artifactId>flyway-maven-plugin</artifactId>
-				<configuration>
-					<url>jdbc:mysql://localhost:3306/db_user?useUnicode=true&amp;useSSL=false&amp;characterEncoding=utf-8</url>
-					<user>tester</user>
-					<password>balabala</password>
-				</configuration>
-			</plugin>
+			<!--<plugin>-->
+				<!--<groupId>org.flywaydb</groupId>-->
+				<!--<artifactId>flyway-maven-plugin</artifactId>-->
+				<!--<configuration>-->
+					<!--<url>jdbc:mysql://localhost:3306/db_user?useUnicode=true&amp;useSSL=false&amp;characterEncoding=utf-8</url>-->
+					<!--<user>tester</user>-->
+					<!--<password>balabala</password>-->
+				<!--</configuration>-->
+			<!--</plugin>-->
 		</plugins>
 	</build>
 
